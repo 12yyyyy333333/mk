@@ -1,0 +1,32 @@
+*, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #e3e3e3;
+}
+
+form {
+    width: 100%;
+    margin: 0 120px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1, h2, h3, h4  {
+    text-align: center;
+
+}
